@@ -52,6 +52,17 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Brasil Tourism Colors
+				brasil: {
+					green: 'hsl(var(--brasil-green))',
+					'green-light': 'hsl(var(--brasil-green-light))',
+					blue: 'hsl(var(--brasil-blue))',
+					'blue-light': 'hsl(var(--brasil-blue-light))',
+					yellow: 'hsl(var(--brasil-yellow))',
+					'yellow-light': 'hsl(var(--brasil-yellow-light))',
+					earth: 'hsl(var(--brasil-earth))',
+					'earth-light': 'hsl(var(--brasil-earth-light))',
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -62,6 +73,21 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			backgroundImage: {
+				'gradient-brasil': 'var(--gradient-brasil)',
+				'gradient-sunset': 'var(--gradient-sunset)',
+				'gradient-ocean': 'var(--gradient-ocean)',
+				'gradient-forest': 'var(--gradient-forest)',
+			},
+			boxShadow: {
+				'brasil': 'var(--shadow-brasil)',
+				'warm': 'var(--shadow-warm)',
+				'ocean': 'var(--shadow-ocean)',
+			},
+			transitionTimingFunction: {
+				'smooth': 'var(--transition-smooth)',
+				'spring': 'var(--transition-spring)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

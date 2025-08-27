@@ -8,35 +8,65 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Brasil Tourism Design System - Inspired by Brazilian landscapes */
+    --background: 45 30% 97%;
+    --foreground: 155 25% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 155 25% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 155 25% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Verde Brasil - Amazon green */
+    --primary: 155 65% 35%;
+    --primary-foreground: 0 0% 98%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Azul Oceano - Ocean blue */
+    --secondary: 200 85% 45%;
+    --secondary-foreground: 0 0% 98%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Terracota suave */
+    --muted: 25 20% 92%;
+    --muted-foreground: 155 15% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Amarelo Sol */
+    --accent: 45 95% 65%;
+    --accent-foreground: 155 25% 15%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 155 15% 88%;
+    --input: 155 15% 88%;
+    --ring: 155 65% 35%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
+
+    /* Custom Brasil Tourism Colors */
+    --brasil-green: 155 65% 35%;
+    --brasil-green-light: 155 45% 55%;
+    --brasil-blue: 200 85% 45%;
+    --brasil-blue-light: 200 65% 65%;
+    --brasil-yellow: 45 95% 65%;
+    --brasil-yellow-light: 45 85% 75%;
+    --brasil-earth: 25 45% 55%;
+    --brasil-earth-light: 25 35% 75%;
+
+    /* Gradients */
+    --gradient-brasil: linear-gradient(135deg, hsl(var(--brasil-green)), hsl(var(--brasil-blue)));
+    --gradient-sunset: linear-gradient(135deg, hsl(var(--brasil-yellow)), hsl(var(--brasil-earth)));
+    --gradient-ocean: linear-gradient(180deg, hsl(var(--brasil-blue-light)), hsl(var(--brasil-blue)));
+    --gradient-forest: linear-gradient(180deg, hsl(var(--brasil-green-light)), hsl(var(--brasil-green)));
+
+    /* Shadows */
+    --shadow-brasil: 0 10px 30px -10px hsl(var(--brasil-green) / 0.2);
+    --shadow-warm: 0 8px 25px -8px hsl(var(--brasil-yellow) / 0.3);
+    --shadow-ocean: 0 12px 35px -12px hsl(var(--brasil-blue) / 0.25);
+
+    /* Animations */
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-spring: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
     --sidebar-background: 0 0% 98%;
 

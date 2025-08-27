@@ -18,6 +18,11 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        // Brasil Tourism variants
+        hero: "bg-gradient-brasil text-white hover:shadow-brasil transition-spring hover:scale-105",
+        brasil: "bg-brasil-green text-white hover:bg-brasil-green-light transition-smooth shadow-brasil",
+        ocean: "bg-gradient-ocean text-white hover:shadow-ocean transition-smooth",
+        sunset: "bg-gradient-sunset text-foreground hover:shadow-warm transition-smooth",
       },
       size: {
         default: "h-10 px-4 py-2",
